@@ -23,7 +23,7 @@ class sessionController extends Controller
         $session = session :: where('session_key','=',$key)->first();
         $session->active=1;
         $session->update();
-        return response() -> json($session, 202);
+        return response() -> json($session, 200);
     }
     //
 }
