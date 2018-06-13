@@ -17,7 +17,7 @@ class CreateSessionsTable extends Migration
             $table->increments('id');
             $table->timestamps();
             $table->text('session_key')->collation('utf8_unicode_ci');
-            $table->text('username')->collation('utf8_unicode_ci')->default('');
+            $table->text('username')->collation('utf8_unicode_ci');
             $table->text('ip')->collation('utf8_unicode_ci');
             $table->boolean('active')->default(0);
         });
