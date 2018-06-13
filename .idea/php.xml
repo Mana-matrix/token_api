@@ -74,6 +74,7 @@
       <path value="$PROJECT_DIR$/API/vendor/symfony/http-foundation" />
       <path value="$PROJECT_DIR$/API/vendor/dnoegel/php-xdg-base-dir" />
       <path value="$PROJECT_DIR$/API/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/API/vendor/dirape/token" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="7" />

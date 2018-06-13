@@ -5,6 +5,7 @@
       <sourceFolder url="file://$MODULE_DIR$/API/app" isTestSource="false" packagePrefix="App\" />
       <sourceFolder url="file://$MODULE_DIR$/API/tests" isTestSource="true" packagePrefix="Tests\" />
       <excludeFolder url="file://$MODULE_DIR$/API/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/API/vendor/dirape/token" />
       <excludeFolder url="file://$MODULE_DIR$/API/vendor/dnoegel/php-xdg-base-dir" />
       <excludeFolder url="file://$MODULE_DIR$/API/vendor/doctrine/inflector" />
       <excludeFolder url="file://$MODULE_DIR$/API/vendor/doctrine/instantiator" />
