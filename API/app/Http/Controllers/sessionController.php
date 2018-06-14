@@ -8,8 +8,9 @@ use Dirape\Token\Token;
 
 class sessionController extends Controller
 {
-    public function register($username)
+    public function register($key,$username)
     {
+        if($key==env('APP_KEY'))
         if($username) {
             $session = session ::create([
                 'ip' => '192.168.0.1',
@@ -19,6 +20,7 @@ class sessionController extends Controller
             // var_dump($session);
             return response() -> json($session, 200);
         }else return response()->json(['message'=>'no Username!'],202);
+        else return response()->json(['message'=>'invalid key!'],202);
     }
     private function getSession($id){
         $date=date("Y-m-d H:i:s", time()  -1800);

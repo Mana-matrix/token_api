@@ -15,6 +15,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/register_api/{username}','sessionController@register');
+Route::get('/register_api/{key}/{username}','sessionController@register');
 Route::get('/activate/{key}','sessionController@activate');
 Route::get('/get/{id}','sessionController@get');
